@@ -4,6 +4,13 @@
 int main(){
     int i,num,heads=0,tails=0;
 
+    //名前を聞くパート
+    char str[8];
+    printf("Who are you? ");
+    scanf("%s", str);
+    printf("Hello, %s\n", str);
+
+    //コイントスのパート
     for(i=0; i<3; i++){
         num=rand();
         if(num%2==0){
