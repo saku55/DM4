@@ -24,7 +24,7 @@ int main(){
     printf("Heads: %d, Tails: %d\n", heads, tails);
 
     //win lost 表示パート
-    if(heads>tails) printf("You win");
-    else printf("You lost");
+    if(heads>tails) printf("%s win", str);
+    else printf("%s lost", str);
     return 0;
 }
